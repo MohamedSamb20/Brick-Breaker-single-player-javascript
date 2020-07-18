@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>BrickStarter</title>
+    <script defer type="text/javascript" src="./BrickBoard2.js"></script>
+    <style>
+    #leftp{
+      position: fixed;
+      left: 445px;
+      top: 557px;
+      background-color: LightCoral; /* Set a background color */
+      color: black; /* Text color */
+      cursor: pointer; /* Add a mouse pointer on hover */
+      padding: 15px; /* Some padding */
+      border-radius: 10px; /* Rounded corners */
+      font-size: 18px; /* Increase font size */
+    }
+    #slowb{
+      position: fixed;
+      left: 575px;
+      top: 557px;
+      background-color: LemonChiffon; /* Set a background color */
+      color: black; /* Text color */
+      cursor: pointer; /* Add a mouse pointer on hover */
+      padding: 15px; /* Some padding */
+      border-radius: 10px; /* Rounded corners */
+      font-size: 18px; /* Increase font size */
+    }
+    #fastb{
+      position: fixed;
+      left: 705px;
+      top: 557px;
+      background-color: LightCyan; /* Set a background color */
+      color: black; /* Text color */
+      cursor: pointer; /* Add a mouse pointer on hover */
+      padding: 15px; /* Some padding */
+      border-radius: 10px; /* Rounded corners */
+      font-size: 18px; /* Increase font size */
+    }
+    #rightp{
+      position: fixed;
+      left: 815px;
+      top: 557px;
+      background-color: PaleGreen ; /* Set a background color */
+      color: black; /* Text color */
+      cursor: pointer; /* Add a mouse pointer on hover */
+      padding: 15px; /* Some padding */
+      border-radius: 10px; /* Rounded corners */
+      font-size: 18px; /* Increase font size */
+    }
+    </style>
+  </head>
+  <body>
+    <canvas id="mainCanvas"></canvas>
+    <button type="button" id="leftp" onmouseover="GoLeft()" onmouseout="myMouseOut()">Move Left</button>
+    <button type="button" id="slowb" onmouseover="GoSlow()" onmouseout="myMouseOut()">Slow Ball</button>
+    <button type="button" id="fastb" onmouseover="GoFast()" onmouseout="myMouseOut()">Fast Ball</button>
+    <button type="button" id="rightp" onmouseover="GoRight()" onmouseout="myMouseOut()">Move Right</button>
+    <h1 style="text-align:center">PADDLE GAME</h1>
+
+    <script>
+    </script>
+
+  </body>
+</html>
